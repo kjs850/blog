@@ -70,12 +70,18 @@ Created topic "test".
 
 ```
 
-### 토픽 수신(consume)
+## 토픽 수신(consume)
 ```bash
  jake.ko@jakekoui-MacBook-Pro  ~  kafka-console-consumer --bootstrap-server localhost:9092 --topic test --from-beginning
 aaa
 bbb
 ccc
 ```
+
+### reference
+- [https://medium.com/@Ankitthakur/apache-kafka-installation-on-mac-using-homebrew-a367cdefd273](https://medium.com/@Ankitthakur/apache-kafka-installation-on-mac-using-homebrew-a367cdefd273)
+
 tags: kafka, mac, install
+
+
 
