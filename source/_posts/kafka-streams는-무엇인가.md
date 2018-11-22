@@ -72,15 +72,15 @@ public class Pipe {
 
 ## 출력 결과
 아래와 같은 토폴로지가 만들어진다.
-![Alt text](./kafka-streams는-무엇인가/pipe.jpg)
+![](../images/pipe.jpg)
 
 하나의 토픽을 그대로 복사한 토픽이 생겼다. ( jake-stream-in 의 토픽내의 메시지를 실시간으로 복사하는 jake-stream-out 토픽이 생겼다)
-![Alt text](./kafka-streams는-무엇인가/stream-consume.jpg)
+![](../images/stream-consume.jpg)
 
 ## 응용
 jake-stream-out이란 토픽에 실시간으로 분석한 결과를 넣을 수 있다. (ex. 단어 split , 또는 단어 빈도 세기)
-![Alt text](./kafka-streams는-무엇인가/split.jpg)
-![Alt text](./kafka-streams는-무엇인가/word_count.jpg)
+![](../images/split.jpg)
+![](../images/word_count.jpg)
 
 ## 참고
 - 카프카 console-producer console-consumer는 그냥 콘솔로 메시지 생성, 소비한다.
