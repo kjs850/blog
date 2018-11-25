@@ -109,7 +109,7 @@ Kafka의 경우 사용 형태에 따라 Consumer API와 Stream API 두가지를 
 
 Consumer API를 사용할때 Java코드 레벨에서 programmatical하게 offset을 리셋하는 방법은 다음과 같다.
 먼저 KafkaConsumer가 생성한 후에
-```java
+```
 KafkaConsumer<Object, Object> consumer = new KafkaConsumer<>(properties, keyDeser, valueDeser);
  
 ```
