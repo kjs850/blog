@@ -97,5 +97,6 @@ Using TensorFlow backend.
 ## reference
 - https://tykimos.github.io/2017/08/07/Keras_Install_on_Mac/
 - https://www.tensorflow.org/install/
+- https://keras.io/models/about-keras-models/
 
 tags:
